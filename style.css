@@ -157,6 +157,10 @@ iframe{
     color: white;
     padding-top: 3%;
     /* padding-top: 3%; */
+    font-size: 20px;
+    font-weight: bold;
+    
+    display: inline-block;
 
 }
 
@@ -193,4 +197,57 @@ margin: 10% 0 2% 0;
 .container100{          
     height: 100vh;
     overflow-y: hidden;
+}
+
+@media  (max-width:460px){
+    h1 span{
+        margin: auto;
+    }
+    .addtask{
+        margin: 20px 20px;
+        justify-content: space-evenly;
+    }
+    .container{
+        flex-direction:column;
+        
+        margin: auto;
+        
+    }
+    .box{
+        min-width: 300px;
+        margin: auto;
+    }
+    .absolute{
+        min-width: 300px;
+        margin: auto;
+        bottom: 10%;
+        left: 2%;
+        right: 2%;
+        min-height: 230px;
+    }
+
+    .taskbox{
+        bottom: -60px;
+    }
+    .textarea{
+        position: relative;
+        bottom: -20px;
+    }
+
+    .task1{
+        min-width: 300px;
+        justify-content: start;
+        margin-bottom: 10%;
+    }
+
+    .back{
+        margin: 0px;
+        padding: 6px;
+        position: relative;
+        bottom: 0px;
+    }
+    .dash{
+        margin: 0;
+        padding: 0;
+    }
 }
